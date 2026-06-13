@@ -88,7 +88,7 @@ const PORTFOLIO = [
     type: "一頁式銷售頁",
     gradient: "linear-gradient(135deg, #1a2e1f 0%, #2d4a35 50%, #1f3528 100%)",
     accent: "#C4A670",
-    url: "alley-coffee.vercel.app",
+    url: "https://alley-coffee.vercel.app",
   },
   {
     title: "即將上架",
@@ -301,6 +301,7 @@ export default function FreelancePage() {
           <div className="port-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 24 }}>
             {PORTFOLIO.map((p, i) => (
               <FadeIn key={i} delay={i * 0.12}>
+                <a href={p.soon ? undefined : p.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit", cursor: p.soon ? "default" : "pointer" }}>
                 <BrowserMockup title={p.url} gradient={p.gradient}>
                   <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
                     {p.soon ? (
@@ -319,6 +320,7 @@ export default function FreelancePage() {
                     )}
                   </div>
                 </BrowserMockup>
+                </a>
                 <div style={{ padding: "14px 4px 0" }}>
                   <p style={{ fontSize: 15, fontWeight: 700, color: "#1A1A2E" }}>{p.soon ? "更多作品製作中" : p.title}</p>
                   <p style={{ fontSize: 12, color: "#9CA3AF", marginTop: 4 }}>{p.type}</p>
