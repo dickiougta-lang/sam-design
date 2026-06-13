@@ -375,7 +375,7 @@ export default function FreelancePage() {
             </p>
 
             <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
-              <button style={{
+              <a href="https://line.me/R/ti/p/@883uwzsg" target="_blank" rel="noopener noreferrer" style={{
                 padding: "16px 48px", background: "#06C755", border: "none", borderRadius: 6,
                 color: "#fff", fontSize: 15, fontWeight: 700, letterSpacing: 2, cursor: "pointer",
                 transition: "all .3s", boxShadow: "0 4px 20px rgba(6,199,85,0.25)",
@@ -383,7 +383,7 @@ export default function FreelancePage() {
               }}
                 onMouseEnter={e => { e.target.style.transform = "translateY(-2px)"; e.target.style.boxShadow = "0 8px 28px rgba(6,199,85,0.35)"; }}
                 onMouseLeave={e => { e.target.style.transform = "none"; e.target.style.boxShadow = "0 4px 20px rgba(6,199,85,0.25)"; }}
-              >LINE 諮詢</button>
+              >LINE 諮詢</a>
 
               <button style={{
                 padding: "16px 48px", background: "transparent", border: "1px solid rgba(255,255,255,0.2)",
