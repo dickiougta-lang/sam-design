@@ -88,7 +88,7 @@ const PORTFOLIO = [
     type: "一頁式銷售頁",
     gradient: "linear-gradient(135deg, #1a2e1f 0%, #2d4a35 50%, #1f3528 100%)",
     accent: "#C4A670",
-    url: "alleycoffee.tw",
+    url: "alley-coffee.vercel.app",
   },
   {
     title: "即將上架",
