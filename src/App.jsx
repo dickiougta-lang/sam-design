@@ -88,15 +88,14 @@ const PORTFOLIO = [
     type: "一頁式銷售頁",
     gradient: "linear-gradient(135deg, #1a2e1f 0%, #2d4a35 50%, #1f3528 100%)",
     accent: "#C4A670",
-    url: "https://alley-coffee.vercel.app",
+    url: "https://coffee.samwebdesignstudio.com",
   },
   {
-    title: "即將上架",
-    type: "美容工作室",
+    title: "指尖花語",
+    type: "美甲工作室",
     gradient: "linear-gradient(135deg, #3a2a3d 0%, #5a3d5e 50%, #3a2a3d 100%)",
     accent: "#D4A0B9",
-    url: "coming-soon",
-    soon: true,
+    url: "https://nails.samwebdesignstudio.com",
   },
   {
     title: "即將上架",
@@ -315,7 +314,11 @@ export default function FreelancePage() {
                       <>
                         <p style={{ fontSize: 28, fontWeight: 700, color: "rgba(255,255,255,0.9)", letterSpacing: 6, fontFamily: `"Noto Serif TC", serif` }}>{p.title}</p>
                         <div style={{ width: 24, height: 1, background: p.accent, margin: "12px 0", opacity: 0.6 }} />
-                        <p style={{ fontSize: 10, color: "rgba(255,255,255,0.35)", letterSpacing: 3 }}>ALLEY COFFEE</p>
+                      <>
+  <p style={{ fontSize: 28, fontWeight: 700, color: "rgba(255,255,255,0.9)", letterSpacing: 6, fontFamily: `"Noto Serif TC", serif` }}>{p.title}</p>
+  <div style={{ width: 24, height: 1, background: p.accent, margin: "12px 0", opacity: 0.6 }} />
+  <p style={{ fontSize: 10, color: "rgba(255,255,255,0.35)", letterSpacing: 3 }}>{p.type.toUpperCase()}</p>
+</>
                       </>
                     )}
                   </div>
