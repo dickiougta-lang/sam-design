@@ -98,12 +98,11 @@ const PORTFOLIO = [
     url: "https://nails.samwebdesignstudio.com",
   },
   {
-    title: "即將上架",
-    type: "健身教練",
-    gradient: "linear-gradient(135deg, #1a2428 0%, #2a3a40 50%, #1a2830 100%)",
-    accent: "#7ABFCF",
-    url: "coming-soon",
-    soon: true,
+  title: "鍛 FORGE",
+  type: "健身教練",
+  gradient: "linear-gradient(135deg, #1a2428 0%, #2a3a40 50%, #1a2830 100%)",
+  accent: "#C87941",
+  url: "https://fitness.samwebdesignstudio.com",
   },
 ];
 
